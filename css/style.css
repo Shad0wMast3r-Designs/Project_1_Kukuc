@@ -257,3 +257,27 @@ textarea {
 }
 
 /*My Code*/
+
+body {
+	background-color: #a2b9bc;
+	font-family: "Georgia";
+}
+
+#top, #bottom, #left, #right {
+	background: black;
+	position: fixed;
+}
+
+#left, #right {
+	top: 0; bottom: 0;
+	width: 50px;
+}
+#left {left: 0;}
+#right {right: 0;}
+
+#top, #bottom {
+	left: 0; right: 0;
+	height: 50px;
+}
+#top {top: 0;}
+#bottom {bottom: 0;}
