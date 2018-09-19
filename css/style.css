@@ -259,42 +259,53 @@ textarea {
 /*My Code*/
 
 body, html {
-	height: 100%;
+	color: white;	
+	text-align: center;
+	font-family: "Arial";
+}
+
+* {
+	box-sizing: border-box;
 }
 
 .wallpaper-img {
 	background-image: url("../media/geralt1.jpg");
 	min-height: 951px;
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: cover;
 	position: relative;
 }
 
-.container {
+.title-img {
 	position: absolute;
 	right: 0;
-	margin: 20px;
-	max-width: 300px;
-	padding: 16px;
-	background-color: silver;
 }
 
-input[type=text], input[type=email] {
-	width: 100%;
-	padding: 15px;
-	margin: 5px 0 22px 0;
-	border: none;
-	background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=email]:focus {
-	background-color: #ddd;
-	outline: none;
+.container {
+	padding: 20px;
+	margin-right: 1200px;
+	margin-top: 50px;
+	background-color: black;
+	display: inline-block;
 }
 
 h1 {
-	text-align: center;
-	margin-bottom: 90px;
-	background-color: red;
+	font-size:30px;
+	margin-bottom: 20px;
+}
+label {
+	margin-bottom:50px;
+}
+input[type=text], input[type=password]{
+	margin-top:10px;
+	width: 100%;
+	padding: 10px;
+	margin-bottom:20px;
+	border: silver;
+	background: #f1f1f1;
 }
 
+input[type=text]:focus,input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
