@@ -309,12 +309,29 @@ input[type=text]:focus,input[type=password]:focus {
 	background-color: #ddd;
 	outline: none;
 }
-
-@media only screen and (max-width: 960px) {
+/*this is for the potrait mode of Iphones.*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+	body {
+		text-align: center;
+		width:100%;
+	}
 	.wallpaper-img {
 		width: auto;
+		height: auto;
 	}
 	.container {
 		margin-top:400px;
+	}
+}
+/*this is for the landscape mode of IPhones.*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+	body {
+		width: 100%;
+	}
+	.wallpaper-img {
+		width:100%;
+	}
+	.container {
+		margin-left:500px;
 	}
 }
