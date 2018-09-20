@@ -294,10 +294,10 @@ label {
 	font-size: 1.250em;
 }
 input[type=text], input[type=password]{
-	margin-top:10px;
+	margin-top:0.2em;
 	width: 100%;
-	padding: 10px;
-	margin-bottom:20px;
+	padding: 0.2em;
+	margin-bottom:1.2500em;
 	border: silver;
 	background: #f1f1f1;
 }
