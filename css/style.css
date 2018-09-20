@@ -271,27 +271,27 @@ body, html {
 
 .wallpaper-img {
 	background-image: url("../media/geralt1.jpg");
-	min-height: 951px;
+	min-height: 950px;
 	background-position: center;
 	background-size: cover;
 	position: relative;
 }
 
 .container {
-	padding: 10px;
+	padding: 0.2em;
 	margin-right: 1200px;
-	margin-top: 50px;
+	margin-top: 1em;
 	background-color: #BBC2C8;
 	display: inline-block;
 }
 
 h1 {
-	font-size: 30px;
-	margin-bottom: 20px;
+	font-size: 1.500em;
+	margin-bottom: 1.000em;
 }
 label {
-	margin-bottom:50px;
-	font-size:20px;
+	margin-bottom: 2.500em;
+	font-size: 1.250em;
 }
 input[type=text], input[type=password]{
 	margin-top:10px;
