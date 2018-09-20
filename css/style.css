@@ -259,7 +259,7 @@ textarea {
 /*My Code*/
 
 body, html {
-	color: #2A2A2A;	
+	color: white;	
 	text-align: center;
 	font-family: "Times New Roman";
 	overflow-y: hidden;
@@ -278,27 +278,29 @@ body, html {
 }
 
 .container {
-	padding: 0.2em;
+	padding: 1.0em;
 	margin-right: 1200px;
 	margin-top: 1em;
-	background-color: #BBC2C8;
+	background-color: #505050;
 	display: inline-block;
 }
 
 h1 {
-	font-size: 1.500em;
+	font-size: 2em;
 	margin-bottom: 1.000em;
 }
 label {
 	margin-bottom: 2.500em;
-	font-size: 1.250em;
+	font-size: 1.500em;
 }
 input[type=text], input[type=password]{
 	margin-top:0.2em;
+	text-align: center;
+	border-radius: 25px;
 	width: 100%;
 	padding: 0.2em;
 	margin-bottom:1.2500em;
-	border: silver;
+	border: 5px solid #000000;
 	background: #f1f1f1;
 }
 input[type=text]:focus,input[type=password]:focus {
