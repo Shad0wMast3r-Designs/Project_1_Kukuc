@@ -259,9 +259,10 @@ textarea {
 /*My Code*/
 
 body, html {
-	color: white;	
+	color: #2A2A2A;	
 	text-align: center;
-	font-family: "Arial";
+	font-family: "Times New Roman";
+	overflow-y: hidden;
 }
 
 * {
@@ -276,25 +277,21 @@ body, html {
 	position: relative;
 }
 
-.title-img {
-	position: absolute;
-	right: 0;
-}
-
 .container {
-	padding: 20px;
+	padding: 10px;
 	margin-right: 1200px;
 	margin-top: 50px;
-	background-color: black;
+	background-color: #BBC2C8;
 	display: inline-block;
 }
 
 h1 {
-	font-size:30px;
+	font-size: 30px;
 	margin-bottom: 20px;
 }
 label {
 	margin-bottom:50px;
+	font-size:20px;
 }
 input[type=text], input[type=password]{
 	margin-top:10px;
@@ -390,3 +387,44 @@ input[type=text]:focus,input[type=password]:focus {
 	}
 }
 /***************************************************************/
+/*for the other screens or peasant phones*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+	body,html{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+	.wallpaper-img {
+		width:100%;
+	}
+	.container {
+		margin-left:500px;
+	}
+}
+/***************************************************************/
+/*peasent phones*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+	body,html {
+		text-align: center;
+		width: 100%;
+		height: 100%;
+		margin:0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+	.wallpaper-img {
+		background-size: cover;
+	}
+	.witcher-img {
+		background-image: url("../media/title.png");
+		background-position: center-top;
+		background-repeat: no-repeat;
+		background-margin: 50px;	
+	}
+	.container {
+		margin-top:400px;
+	}
+}
+
