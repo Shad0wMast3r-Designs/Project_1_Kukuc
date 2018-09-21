@@ -263,37 +263,39 @@ body, html {
 	text-align: center;
 	font-family: "Times New Roman";
 	overflow-y: hidden;
+	overflow-x: hidden;
 }
-
 * {
 	box-sizing: border-box;
 }
-
 .wallpaper-img {
 	background-image: url("../media/geralt1.jpg");
-	min-height: 950px;
+	min-height: 951px;
 	background-position: center;
-	background-size: cover;
+	background-repeat: no-repeat;
 	position: relative;
 }
-
 .container {
+	background-image: url("../media/title.png");
 	padding: 1.0em;
-	margin-right: 1200px;
-	margin-top: 1em;
+	background-position: top;
+	background-repeat: no-repeat;
 	background-color: #505050;
 	display: inline-block;
+	margin-top:auto;
+	margin-right: 800px;
 }
 
 h1 {
 	font-size: 2em;
 	margin-bottom: 1.000em;
+	margin-top: 5.000em;
 }
 label {
 	margin-bottom: 2.500em;
 	font-size: 1.500em;
 }
-input[type=text], input[type=password]{
+input[type=text], input[type=password], input[type=date]{
 	margin-top:0.2em;
 	text-align: center;
 	border-radius: 25px;
@@ -303,9 +305,18 @@ input[type=text], input[type=password]{
 	border: 5px solid #000000;
 	background: #f1f1f1;
 }
-input[type=text]:focus,input[type=password]:focus {
+input[type=text]:focus,input[type=password]:focus, input[type=date]:focus {
 	background-color: #ddd;
 	outline: none;
+}
+input[type=submit] {
+		text-align: center;
+		border-radius: 15px;
+		border: none;
+}
+input[type=sumbit]:hover {
+		background-color: white;
+
 }
 /*this is for the potrait mode of Iphone 7+.*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
@@ -328,6 +339,23 @@ input[type=text]:focus,input[type=password]:focus {
 	}
 	.container {
 		margin-top:400px;
+	}
+}
+/**************************************************************/
+/*Media for Two Windows!*/
+@media only screen and (max-width: 927px) {
+	body,html{
+		font-size: 16px;
+	}
+	.container {	
+		padding: 2em;
+		margin-right: 1050px;
+		margin-top: 40px;	
+	}
+	.wallpaper-img {
+		background-image: url("../media/geralt22.jpg");
+		height: 1080px;
+		width: 1500px;
 	}
 }
 /***************************************************************/
@@ -389,7 +417,7 @@ input[type=text]:focus,input[type=password]:focus {
 	}
 }
 /***************************************************************/
-/*for the other screens or peasant phones*/
+/*for the other screens or peasant phones landscape*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
 	body,html{
 		width: 100%;
@@ -406,7 +434,7 @@ input[type=text]:focus,input[type=password]:focus {
 	}
 }
 /***************************************************************/
-/*peasent phones*/
+/*peasent phones portait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
 	body,html {
 		text-align: center;
@@ -429,4 +457,3 @@ input[type=text]:focus,input[type=password]:focus {
 		margin-top:400px;
 	}
 }
-
