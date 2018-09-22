@@ -359,7 +359,7 @@ a {
 		font-size: 16px;
 	}
 	.container {	
-		padding: 2em;
+		padding: 1.5em;
 		margin-right: 1050px;
 		margin-top: 40px;	
 	}
@@ -368,9 +368,27 @@ a {
 		height: 1080px;
 		width: 1500px;
 	}
-	.ps4_logo {
-		height: 60px;
-		width: 200px;
+	.img_stacked {
+		position: absolute;
+		top: 25px;
+		left: 25px;
+	}
+	.ps_stacked {
+		margin-left: 400px;
+		margin-top: 500px;
+		background-color: white;
+	}	
+	.pc_stacked
+	{
+		z-index: 3;
+	}
+	.xbox_stacked {
+		position: relative;
+		margin-top:200px;
+		background-color: white;
+	}
+	a {
+		padding: 1.0em;
 	}
 }
 /***************************************************************/
