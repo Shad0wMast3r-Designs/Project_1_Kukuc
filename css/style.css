@@ -463,18 +463,33 @@ a {
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
 	}
-
+	.title {
+		background-image: url("../media/title.png");
+		background-repeat: no-repeat;
+		background-position: top-right;
+	}
+	.wallpaper-img {
+		height: 1000px;
+		width: 800px;
+			}	
 	.container {
 		margin: auto;
 		position: relative;
-		top: 350px;
+		top: 450px;
 	}
-	.wallpaper-img {
-		width:100%;
+	.xbox_stacked {
+		height: 100px;
+		width: 100px;
 	}
-	.container {
-		margin-left:800px;
+	.pc_stacked {
+		width: 100px;
+		height: 100px;
 	}
+	.ps_stacked {
+		height: 100px;
+		width: 100px;
+	}
+
 }
 /****************************************************************/
 /*this is for the landscape mode of IPhones 7+.*/
