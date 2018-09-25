@@ -336,19 +336,26 @@ a {
 /*this is for the potrait mode of Iphone 7+.*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
 	body,html {
+		overflow: auto;
 		text-align: center;
-		width: 100%;
-		height: 100%;
 		margin:0;
 		padding: 0;
 	}
+	.title {
+		background-image: url("../media/title.png");
+		background-repeat: no-repeat;
+		background-position: top;
+
+	}
 	.wallpaper-img {
 		background-image: url("../media/geralt22.jpg");
+		padding: 20px;
 	}
 	.container {
+		margin: auto;
 		position: relative;
-		margin-top: 4000px;
-	}
+		top: 350px;
+	}	
 }
 /**************************************************************/
 /*Media for Two Windows!*/
@@ -394,6 +401,7 @@ a {
 /*Regular IPhone ScreenSetup!*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
 	body,html {
+		overflow: scroll;
 		text-align: center;
 		width: 100%;
 		height: 100%;
@@ -411,7 +419,10 @@ a {
 		background-margin: 50px;	
 	}
 	.container {
-		margin-top:400px;
+		margin-top:800px;
+	}
+	.img_stacked {
+		margin-top: 300px;
 	}
 }
 /***************************************************************/
@@ -469,6 +480,7 @@ a {
 /*peasent phones portait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
 	body,html {
+		overflow: scroll;
 		text-align: center;
 		width: 100%;
 		height: 100%;
