@@ -460,12 +460,20 @@ a {
 		margin: 0;
 		padding: 0;
     overflow: auto;
+		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.container {
+		margin: auto;
+		position: relative;
+		top: 350px;
 	}
 	.wallpaper-img {
 		width:100%;
 	}
 	.container {
-		margin-left:500px;
+		margin-left:800px;
 	}
 }
 /****************************************************************/
@@ -478,12 +486,34 @@ a {
 		padding: 0;
 		overflow: auto;
 		overflow-x: hidden;
+		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
+	}
+	.title {
+		background-image: url("../media/title.png");
+		background-repeat: no-repeat;
+		background-position: top-right;
 	}
 	.wallpaper-img {
-		width:100%;
-	}
+		height: 1000px;
+		width: 800px;
+			}	
 	.container {
-		margin-left:500px;
+		margin: auto;
+		position: relative;
+		top: 450px;
+	}
+	.xbox_stacked {
+		height: 100px;
+		width: 100px;
+	}
+	.pc_stacked {
+		width: 100px;
+		height: 100px;
+	}
+	.ps_stacked {
+		height: 100px;
+		width: 100px;
 	}
 }
 /***************************************************************/
