@@ -8,3 +8,4 @@ function myFunction() {
 	window.location.replace("https://thewitcher.com/en/witcher3");
 		return false;
 }
+
