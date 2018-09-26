@@ -6,5 +6,5 @@ Project 1 JavaScript
 function myFunction() {
 	alert("Thank You For Submitting!");
 	window.open("https://thewitcher.com/en/witcher3");
-		return true;
+		return false;
 }

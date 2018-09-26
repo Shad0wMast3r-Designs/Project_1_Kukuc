@@ -331,9 +331,7 @@ a {
 	margin-right: auto;
 	margin-left: auto;
 }
-*:focus {
-	outline: none;
-}
+
 /*Media for Two Windows!*/
 @media only screen and (min-width: 927px) and (max-width: 1080px) {
 	body,html{
@@ -342,7 +340,7 @@ a {
 	.container {	
 		padding: 1.5em;
 		margin-right: 1050px;
-		margin-top: 40px;	
+		margin-top: 20px;	
 	}
 	.wallpaper-img {
 		background-image: url("../media/geralt22.jpg");
@@ -350,25 +348,17 @@ a {
 		width: 1500px;
 	}
 	.img_stacked {
-		position: absolute;
-		top: 25px;
-		left: 25px;
-	}
-	.ps_stacked {
-		margin-left: 0px;
-		margin-top: 770px;
-	}	
-	.pc_stacked
-	{
-		margin-bottom: 120px;
+		float: left;
+		display: inline;
 	}
 	.xbox_stacked {
-		position: absolute;
-		margin-top: 760px;
-		margin-right: 300px;
+		width: 250px;
 	}
-	a {
-		padding: 1.0em;
+	.ps_stacked {
+		width: 250px;
+	}
+	.pc_stacked {
+		width: 250px;
 	}
 }
 /***************************************************************/
