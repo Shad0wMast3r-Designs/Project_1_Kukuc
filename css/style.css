@@ -373,7 +373,7 @@ a {
 }
 /***************************************************************/
 /*this is for the potrait mode of Iphone 7+.*/
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait) {
 	body,html {
 		overflow: auto;
 		-webkit-overflow-scrolling: touch;
