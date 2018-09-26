@@ -1,0 +1,18 @@
+/*Andy Kukuc
+Professor Krieglstad
+Project 1 JavaScript
+9-12-2018*/
+
+function myFunction() {
+	alert("Thank You For Submitting!");
+	window.location.replace("https://thewitcher.com/en/witcher3");
+		return false;
+}
+
+function validateForm() {
+	var x = document.forms["myForm"]["fname"].value;
+	if(x == "") {
+		alert("Name must be filled out!");
+		return false;
+	}
+}
