@@ -3,4 +3,7 @@ Professor Krieglstad
 Project 1 JavaScript
 9-12-2018*/
 
-//add vars
+function myFunction() {
+	alert("Thank You For Submitting!");
+		return true;
+}
