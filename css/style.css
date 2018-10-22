@@ -265,7 +265,7 @@ p {
 body, html {
   color: white;	
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "Times New Roman",Arial,sans-serif;
   overflow-y: hidden;
   overflow-x: hidden;
 }
